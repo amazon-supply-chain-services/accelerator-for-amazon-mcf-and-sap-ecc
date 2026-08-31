@@ -1,0 +1,517 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><parameters><parameter>
+    <key/>
+    <name>PD Custom Error Handling Address</name>
+    <type>xsd:string</type>
+    <isRequired>false</isRequired>
+    <constraint/>
+    <description/>
+    <additionalMetadata>
+      <Configured>true</Configured>
+    </additionalMetadata>
+  </parameter><parameter>
+    <key/>
+    <name>Custom Error End Event</name>
+    <type>xsd:string</type>
+    <isRequired>false</isRequired>
+    <constraint/>
+    <description>completed or escalated</description>
+    <additionalMetadata/>
+  </parameter><parameter>
+    <key/>
+    <name>MPL Log Custom Status</name>
+    <type>xsd:string</type>
+    <isRequired>false</isRequired>
+    <constraint/>
+    <description/>
+    <additionalMetadata/>
+  </parameter><parameter>
+    <key/>
+    <name>Language</name>
+    <type>xsd:string</type>
+    <isRequired>false</isRequired>
+    <constraint/>
+    <description/>
+    <additionalMetadata>
+      <Configured>true</Configured>
+    </additionalMetadata>
+  </parameter><parameter>
+    <key/>
+    <name>PD Address Update Flow</name>
+    <type>xsd:string</type>
+    <isRequired>false</isRequired>
+    <constraint/>
+    <description/>
+    <additionalMetadata/>
+  </parameter><parameter>
+    <key/>
+    <name>Update Package Function</name>
+    <type>xsd:string</type>
+    <isRequired>false</isRequired>
+    <constraint/>
+    <description>true or false</description>
+    <additionalMetadata/>
+  </parameter><parameter>
+    <key/>
+    <name>Shipping Instructions</name>
+    <type>xsd:string</type>
+    <isRequired>false</isRequired>
+    <constraint/>
+    <description/>
+    <additionalMetadata>
+      <Configured>true</Configured>
+    </additionalMetadata>
+  </parameter><parameter>
+    <key/>
+    <name>Shipping Notifications</name>
+    <type>xsd:string</type>
+    <isRequired>false</isRequired>
+    <constraint/>
+    <description/>
+    <additionalMetadata>
+      <Configured>true</Configured>
+    </additionalMetadata>
+  </parameter><parameter>
+    <key/>
+    <name>PD Sender Event Flow</name>
+    <type>xsd:string</type>
+    <isRequired>false</isRequired>
+    <constraint/>
+    <description/>
+    <additionalMetadata/>
+  </parameter><parameter>
+    <key/>
+    <name>S4HANA Address</name>
+    <type>xsd:string</type>
+    <isRequired>false</isRequired>
+    <constraint/>
+    <description/>
+    <additionalMetadata>
+      <Configured>true</Configured>
+    </additionalMetadata>
+  </parameter><parameter>
+    <key/>
+    <name>S4HANA ProxyType</name>
+    <type>xsd:string</type>
+    <isRequired>false</isRequired>
+    <constraint/>
+    <description/>
+    <additionalMetadata>
+      <isCombobox>true</isCombobox>
+    </additionalMetadata>
+  </parameter><parameter>
+    <key/>
+    <name>S4HANA LocationID</name>
+    <type>xsd:string</type>
+    <isRequired>false</isRequired>
+    <constraint/>
+    <description/>
+    <additionalMetadata>
+      <Configured>true</Configured>
+    </additionalMetadata>
+  </parameter><parameter>
+    <key/>
+    <name>S4HANA Authentication</name>
+    <type>xsd:string</type>
+    <isRequired>false</isRequired>
+    <constraint/>
+    <description/>
+    <additionalMetadata>
+      <isCombobox>true</isCombobox>
+    </additionalMetadata>
+  </parameter><parameter>
+    <key/>
+    <name>S4HANA Credential Name</name>
+    <type>xsd:string</type>
+    <isRequired>false</isRequired>
+    <constraint/>
+    <description/>
+    <additionalMetadata>
+      <Configured>true</Configured>
+    </additionalMetadata>
+  </parameter><parameter>
+    <key/>
+    <name>S4HANA CSRF Protected</name>
+    <type>xsd:boolean</type>
+    <isRequired>false</isRequired>
+    <constraint/>
+    <description/>
+    <additionalMetadata>
+      <isCombobox>false</isCombobox>
+    </additionalMetadata>
+  </parameter><parameter>
+    <key/>
+    <name>S4HANA ReuseConnection</name>
+    <type>xsd:boolean</type>
+    <isRequired>false</isRequired>
+    <constraint/>
+    <description/>
+    <additionalMetadata>
+      <isCombobox>false</isCombobox>
+    </additionalMetadata>
+  </parameter><parameter>
+    <key/>
+    <name>S4HANA Enable Batch Processing</name>
+    <type>xsd:boolean</type>
+    <isRequired>false</isRequired>
+    <constraint/>
+    <description/>
+    <additionalMetadata>
+      <isCombobox>false</isCombobox>
+    </additionalMetadata>
+  </parameter><parameter>
+    <key/>
+    <name>S4HANA Custom Query options</name>
+    <type>xsd:string</type>
+    <isRequired>false</isRequired>
+    <constraint/>
+    <description/>
+    <additionalMetadata/>
+  </parameter><parameter>
+    <key/>
+    <name>S4HANA Content Type</name>
+    <type>xsd:string</type>
+    <isRequired>false</isRequired>
+    <constraint/>
+    <description/>
+    <additionalMetadata>
+      <isCombobox>true</isCombobox>
+    </additionalMetadata>
+  </parameter><parameter>
+    <key/>
+    <name>S4HANA Content Encoding</name>
+    <type>xsd:string</type>
+    <isRequired>false</isRequired>
+    <constraint/>
+    <description/>
+    <additionalMetadata>
+      <isCombobox>true</isCombobox>
+    </additionalMetadata>
+  </parameter><parameter>
+    <key/>
+    <name>S4HANA Attach Error</name>
+    <type>xsd:boolean</type>
+    <isRequired>false</isRequired>
+    <constraint/>
+    <description/>
+    <additionalMetadata>
+      <isCombobox>false</isCombobox>
+    </additionalMetadata>
+  </parameter><parameter>
+    <key/>
+    <name>S4HANA Timeout in mins</name>
+    <type>xsd:integer</type>
+    <isRequired>false</isRequired>
+    <constraint/>
+    <description/>
+    <additionalMetadata/>
+  </parameter><parameter>
+    <key/>
+    <name>S4HANA Request Headers</name>
+    <type>xsd:string</type>
+    <isRequired>false</isRequired>
+    <constraint/>
+    <description/>
+    <additionalMetadata/>
+  </parameter><parameter>
+    <key/>
+    <name>S4HANA Response Heeaders</name>
+    <type>xsd:string</type>
+    <isRequired>false</isRequired>
+    <constraint/>
+    <description/>
+    <additionalMetadata/>
+  </parameter><parameter>
+    <key/>
+    <name>S4HANA MetaData request Headers</name>
+    <type>xsd:string</type>
+    <isRequired>false</isRequired>
+    <constraint/>
+    <description/>
+    <additionalMetadata/>
+  </parameter><parameter>
+    <key/>
+    <name>S4HANA MetaData Custom Query Headers</name>
+    <type>xsd:string</type>
+    <isRequired>false</isRequired>
+    <constraint/>
+    <description/>
+    <additionalMetadata/>
+  </parameter><parameter>
+    <key/>
+    <name>S4HANA Resource Path</name>
+    <type>xsd:string</type>
+    <isRequired>false</isRequired>
+    <constraint/>
+    <description/>
+    <additionalMetadata/>
+  </parameter><parameter>
+    <key/>
+    <name>S4HANA Resource Path Patch Delivery date</name>
+    <type>xsd:string</type>
+    <isRequired>false</isRequired>
+    <constraint/>
+    <description/>
+    <additionalMetadata/>
+  </parameter><parameter>
+    <key/>
+    <name>S4HANA Patch Content Type</name>
+    <type>xsd:string</type>
+    <isRequired>false</isRequired>
+    <constraint/>
+    <description/>
+    <additionalMetadata>
+      <isCombobox>true</isCombobox>
+    </additionalMetadata>
+  </parameter><parameter>
+    <key/>
+    <name>S4HANA Patch Content Encoding</name>
+    <type>xsd:string</type>
+    <isRequired>false</isRequired>
+    <constraint/>
+    <description/>
+    <additionalMetadata>
+      <isCombobox>true</isCombobox>
+    </additionalMetadata>
+  </parameter><parameter>
+    <key/>
+    <name>S4HANA Patch Attach Error</name>
+    <type>xsd:boolean</type>
+    <isRequired>false</isRequired>
+    <constraint/>
+    <description/>
+    <additionalMetadata>
+      <isCombobox>false</isCombobox>
+    </additionalMetadata>
+  </parameter><parameter>
+    <key/>
+    <name>S4HANA Patch Timeout</name>
+    <type>xsd:integer</type>
+    <isRequired>false</isRequired>
+    <constraint/>
+    <description/>
+    <additionalMetadata/>
+  </parameter><parameter>
+    <key/>
+    <name>S4HANA Patch Request Headers</name>
+    <type>xsd:string</type>
+    <isRequired>false</isRequired>
+    <constraint/>
+    <description/>
+    <additionalMetadata/>
+  </parameter><parameter>
+    <key/>
+    <name>S4HANA Patch Response Headers</name>
+    <type>xsd:string</type>
+    <isRequired>false</isRequired>
+    <constraint/>
+    <description/>
+    <additionalMetadata/>
+  </parameter><parameter>
+    <key/>
+    <name>S4HANA Patch MetaData request Headers</name>
+    <type>xsd:string</type>
+    <isRequired>false</isRequired>
+    <constraint/>
+    <description/>
+    <additionalMetadata/>
+  </parameter><parameter>
+    <key/>
+    <name>S4HANA Patch Metadata Custom Query Parameters</name>
+    <type>xsd:string</type>
+    <isRequired>false</isRequired>
+    <constraint/>
+    <description/>
+    <additionalMetadata/>
+  </parameter><parameter>
+    <key/>
+    <name>S4HANA Create Text Resource Path</name>
+    <type>xsd:string</type>
+    <isRequired>false</isRequired>
+    <constraint/>
+    <description/>
+    <additionalMetadata/>
+  </parameter><parameter>
+    <key/>
+    <name>S4HANA Text Custom Query</name>
+    <type>xsd:string</type>
+    <isRequired>false</isRequired>
+    <constraint/>
+    <description/>
+    <additionalMetadata/>
+  </parameter><parameter>
+    <key/>
+    <name>S4HANA Text Content type</name>
+    <type>xsd:string</type>
+    <isRequired>false</isRequired>
+    <constraint/>
+    <description/>
+    <additionalMetadata>
+      <isCombobox>true</isCombobox>
+    </additionalMetadata>
+  </parameter><parameter>
+    <key/>
+    <name>S4HANA Text Content Type Encoding</name>
+    <type>xsd:string</type>
+    <isRequired>false</isRequired>
+    <constraint/>
+    <description/>
+    <additionalMetadata>
+      <isCombobox>true</isCombobox>
+    </additionalMetadata>
+  </parameter><parameter>
+    <key/>
+    <name>S4HANA Text Attach Error</name>
+    <type>xsd:boolean</type>
+    <isRequired>false</isRequired>
+    <constraint/>
+    <description/>
+    <additionalMetadata>
+      <isCombobox>false</isCombobox>
+    </additionalMetadata>
+  </parameter><parameter>
+    <key/>
+    <name>S4HANA Text Timeout in min</name>
+    <type>xsd:integer</type>
+    <isRequired>false</isRequired>
+    <constraint/>
+    <description/>
+    <additionalMetadata/>
+  </parameter><parameter>
+    <key/>
+    <name>S4HANA Text Request Headers</name>
+    <type>xsd:string</type>
+    <isRequired>false</isRequired>
+    <constraint/>
+    <description/>
+    <additionalMetadata/>
+  </parameter><parameter>
+    <key/>
+    <name>S4HANA Text Response Headers</name>
+    <type>xsd:string</type>
+    <isRequired>false</isRequired>
+    <constraint/>
+    <description/>
+    <additionalMetadata/>
+  </parameter><parameter>
+    <key/>
+    <name>S4HANA Text MetaData Request Headers</name>
+    <type>xsd:string</type>
+    <isRequired>false</isRequired>
+    <constraint/>
+    <description/>
+    <additionalMetadata/>
+  </parameter><parameter>
+    <key/>
+    <name>S4HANA text MetaData Custom Query Parameters</name>
+    <type>xsd:string</type>
+    <isRequired>false</isRequired>
+    <constraint/>
+    <description/>
+    <additionalMetadata/>
+  </parameter><parameter>
+    <key/>
+    <name>Incoming Payload Title</name>
+    <type>xsd:string</type>
+    <isRequired>false</isRequired>
+    <constraint/>
+    <description/>
+    <additionalMetadata>
+      <Configured>true</Configured>
+    </additionalMetadata>
+  </parameter><parameter>
+    <key/>
+    <name>Expected Alias Type</name>
+    <type>xsd:string</type>
+    <isRequired>false</isRequired>
+    <constraint/>
+    <description/>
+    <additionalMetadata>
+      <Configured>true</Configured>
+    </additionalMetadata>
+  </parameter><parameter>
+    <key/>
+    <name>Custom Error Handling</name>
+    <type>xsd:string</type>
+    <isRequired>false</isRequired>
+    <constraint/>
+    <description>true or false</description>
+    <additionalMetadata>
+      <Configured>true</Configured>
+    </additionalMetadata>
+  </parameter><parameter>
+    <key/>
+    <name>S4HANA_ADDRESS</name>
+    <type>xsd:string</type>
+    <isRequired>false</isRequired>
+    <constraint/>
+    <description/>
+    <additionalMetadata>
+      <Configured>true</Configured>
+    </additionalMetadata>
+  </parameter><parameter>
+    <key/>
+    <name>Tracking Information</name>
+    <type>xsd:string</type>
+    <isRequired>false</isRequired>
+    <constraint/>
+    <description/>
+    <additionalMetadata>
+      <Configured>true</Configured>
+    </additionalMetadata>
+  </parameter><parameter>
+    <key/>
+    <name>s4hana Request Headers Pickall</name>
+    <type>xsd:string</type>
+    <isRequired>false</isRequired>
+    <constraint/>
+    <description/>
+    <additionalMetadata/>
+  </parameter><parameter>
+    <key/>
+    <name>S4HANA Response Headers Pickall</name>
+    <type>xsd:string</type>
+    <isRequired>false</isRequired>
+    <constraint/>
+    <description/>
+    <additionalMetadata/>
+  </parameter><parameter>
+    <key/>
+    <name>Expected Line Item Alias Type</name>
+    <type>xsd:string</type>
+    <isRequired>false</isRequired>
+    <constraint/>
+    <description/>
+    <additionalMetadata/>
+  </parameter><parameter>
+    <key/>
+    <name>OData Custom Query Options</name>
+    <type>xsd:string</type>
+    <isRequired>false</isRequired>
+    <constraint/>
+    <description/>
+    <additionalMetadata/>
+  </parameter><parameter>
+    <key/>
+    <name>Enable Logging</name>
+    <type>xsd:string</type>
+    <isRequired>false</isRequired>
+    <constraint/>
+    <description>true/false</description>
+    <additionalMetadata/>
+  </parameter><parameter>
+    <key/>
+    <name>Item Unit</name>
+    <type>xsd:string</type>
+    <isRequired>false</isRequired>
+    <constraint/>
+    <description>Unit of measure for picking (e.g. ST)</description>
+    <additionalMetadata/>
+  </parameter><parameter>
+    <key/>
+    <name>Ship Point</name>
+    <type>xsd:string</type>
+    <isRequired>false</isRequired>
+    <constraint/>
+    <description/>
+    <additionalMetadata/>
+  </parameter><param_references><reference attribute_category="Event_iFlow" attribute_id="ctype::Adapter/cname::ProcessDirect/vendor::SAP/version::1.1.2/attrId::address" attribute_uilabel="Address" param_key="PD Sender Event Flow"/><reference attribute_category="Custom_Error_Handling_iFlow" attribute_id="ctype::Adapter/cname::ProcessDirect/vendor::SAP/version::1.1.2/attrId::address" attribute_uilabel="Address" param_key="PD Custom Error Handling Address"/></param_references></parameters>

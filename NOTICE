@@ -1,0 +1,31 @@
+Amazon Supply Chain Services - SAP ECC MCF Accelerator
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+
+This repository includes internal BTP processing routines (Groovy scripts,
+mapping logic, flow patterns) derived from:
+
+SAP API Business Hub Integration Recipes
+  - Source: https://github.com/SAP/apibusinesshub-integration-recipes
+  - Path: Recipes/for/amazonmcfandbuywithprimeacceleratorsforsaps4hana
+  - License: Apache-2.0
+  - Copyright: Copyright (c) SAP SE or an SAP affiliate company
+  - Modifications: Internal BTP routines adapted for ECC RFC/BAPI integration by Amazon
+
+The ECC interface layer (RFC/BAPI connectivity) is original
+work by Amazon.
+
+Test Harness
+  - The offline test harness under test/ includes an original, minimal
+    re-implementation of the SAP CPI script API shape (the class
+    com.sap.gateway.ip.core.customdev.util.Message and the messageLogFactory
+    binding) solely to execute the transformation scripts locally without the
+    SAP BTP Cloud Integration runtime.
+  - Only the class/API name and method signatures are reproduced (as required
+    for the scripts to compile); the implementation is entirely original Amazon
+    work. No SAP-authored code or SAP libraries are included or redistributed.
+  - The test harness depends only on Apache Groovy (Apache-2.0) and JUnit
+    (EPL-2.0), retrieved from Maven Central at build time.
+  - The offline test harness is for experimental/development use only, to
+    validate transformation logic before deploying to a licensed SAP BTP Cloud
+    Integration runtime. Users are expected to obtain a licensed SAP BTP Cloud
+    Integration environment for production use.

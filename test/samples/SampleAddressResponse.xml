@@ -1,0 +1,28 @@
+<rfc:BAPISDORDER_GETDETAILEDLIST.Response xmlns:rfc="urn:sap-com:document:sap:rfc:functions">
+    <ORDER_ADDRESS_OUT>
+        <item>
+            <DOC_NUMBER>0000021994</DOC_NUMBER>
+            <ADDRESS>0000006662</ADDRESS>
+            <NAME>Sold To Party GmbH</NAME>
+            <STREETNA>Sold To Street 1</STREETNA>
+            <CITY>Berlin</CITY>
+            <REGION>BE</REGION>
+            <POSTL_CODE>10115</POSTL_CODE>
+            <COUNTRY>DE</COUNTRY>
+            <COUNTRYISO>DE</COUNTRYISO>
+            <TELEPHONE>+49 30 000000</TELEPHONE>
+        </item>
+        <item>
+            <DOC_NUMBER>0000021994</DOC_NUMBER>
+            <ADDRESS>9000002419</ADDRESS>
+            <NAME>Jane Recipient</NAME>
+            <STREETNA>1000 Winthrop Ave N</STREETNA>
+            <CITY>Seattle</CITY>
+            <REGION>WA</REGION>
+            <POSTL_CODE>98103</POSTL_CODE>
+            <COUNTRY>US</COUNTRY>
+            <COUNTRYISO>US</COUNTRYISO>
+            <TELEPHONE>+1 206 555 0100</TELEPHONE>
+        </item>
+    </ORDER_ADDRESS_OUT>
+</rfc:BAPISDORDER_GETDETAILEDLIST.Response>

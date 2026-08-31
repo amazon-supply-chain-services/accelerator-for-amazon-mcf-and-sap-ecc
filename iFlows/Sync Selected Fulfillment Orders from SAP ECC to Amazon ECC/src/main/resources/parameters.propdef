@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><parameters><parameter>
+    <key/>
+    <name>Plant</name>
+    <type>xsd:string</type>
+    <isRequired>false</isRequired>
+    <constraint/>
+    <description/>
+    <additionalMetadata/>
+  </parameter><parameter>
+    <key/>
+    <name>Enable Logging</name>
+    <type>xsd:string</type>
+    <isRequired>false</isRequired>
+    <constraint/>
+    <description>true/false</description>
+    <additionalMetadata/>
+  </parameter><parameter>
+    <key/>
+    <name>Payload Logging</name>
+    <type>xsd:string</type>
+    <isRequired>false</isRequired>
+    <constraint/>
+    <description>true/false</description>
+    <additionalMetadata/>
+  </parameter><parameter>
+    <key/>
+    <name>PD Create Address</name>
+    <type>xsd:string</type>
+    <isRequired>false</isRequired>
+    <constraint/>
+    <description/>
+    <additionalMetadata/>
+  </parameter><parameter>
+    <key/>
+    <name>PD Update Address</name>
+    <type>xsd:string</type>
+    <isRequired>false</isRequired>
+    <constraint/>
+    <description/>
+    <additionalMetadata/>
+  </parameter><parameter>
+    <key/>
+    <name>SOAP Address</name>
+    <type>xsd:string</type>
+    <isRequired>false</isRequired>
+    <constraint/>
+    <description/>
+    <additionalMetadata/>
+  </parameter><parameter>
+    <key/>
+    <name>SOAP Service Defination</name>
+    <type>xsd:string</type>
+    <isRequired>false</isRequired>
+    <constraint/>
+    <description/>
+    <additionalMetadata>
+      <isCombobox>true</isCombobox>
+    </additionalMetadata>
+  </parameter><parameter>
+    <key/>
+    <name>SOAP WS Addressing</name>
+    <type>xsd:boolean</type>
+    <isRequired>false</isRequired>
+    <constraint/>
+    <description/>
+    <additionalMetadata>
+      <isCombobox>false</isCombobox>
+    </additionalMetadata>
+  </parameter><parameter>
+    <key/>
+    <name>SOAP URL to WSDL</name>
+    <type>xsd:string</type>
+    <isRequired>false</isRequired>
+    <constraint/>
+    <description/>
+    <additionalMetadata/>
+  </parameter><parameter>
+    <key/>
+    <name>SOAP Service</name>
+    <type>xsd:string</type>
+    <isRequired>false</isRequired>
+    <constraint/>
+    <description/>
+    <additionalMetadata/>
+  </parameter><parameter>
+    <key/>
+    <name>SOAP Endpoint</name>
+    <type>xsd:string</type>
+    <isRequired>false</isRequired>
+    <constraint/>
+    <description/>
+    <additionalMetadata/>
+  </parameter><parameter>
+    <key/>
+    <name>SOAP Processing Settings</name>
+    <type>xsd:string</type>
+    <isRequired>false</isRequired>
+    <constraint/>
+    <description/>
+    <additionalMetadata>
+      <isCombobox>true</isCombobox>
+    </additionalMetadata>
+  </parameter><parameter>
+    <key/>
+    <name>SOAP Authorization</name>
+    <type>xsd:string</type>
+    <isRequired>false</isRequired>
+    <constraint/>
+    <description/>
+    <additionalMetadata>
+      <isCombobox>true</isCombobox>
+    </additionalMetadata>
+  </parameter><parameter>
+    <key/>
+    <name>SOAP User Role</name>
+    <type>xsd:string</type>
+    <isRequired>false</isRequired>
+    <constraint/>
+    <description/>
+    <additionalMetadata/>
+  </parameter><parameter>
+    <key/>
+    <name>SOAP WS Security COnfiguration</name>
+    <type>xsd:string</type>
+    <isRequired>false</isRequired>
+    <constraint/>
+    <description/>
+    <additionalMetadata>
+      <isCombobox>true</isCombobox>
+    </additionalMetadata>
+  </parameter><parameter>
+    <key/>
+    <name>SOAP Body Size</name>
+    <type>xsd:integer</type>
+    <isRequired>false</isRequired>
+    <constraint/>
+    <description/>
+    <additionalMetadata/>
+  </parameter><parameter>
+    <key/>
+    <name>SOAP Attachment Size</name>
+    <type>xsd:integer</type>
+    <isRequired>false</isRequired>
+    <constraint/>
+    <description/>
+    <additionalMetadata/>
+  </parameter><parameter>
+    <key/>
+    <name>TextID</name>
+    <type>xsd:string</type>
+    <isRequired>false</isRequired>
+    <constraint/>
+    <description/>
+    <additionalMetadata/>
+  </parameter><parameter>
+    <key/>
+    <name>PD Cancel Address</name>
+    <type>xsd:string</type>
+    <isRequired>false</isRequired>
+    <constraint/>
+    <description/>
+    <additionalMetadata/>
+  </parameter><parameter>
+    <key/>
+    <name>Custum Error Handling</name>
+    <type>xsd:string</type>
+    <isRequired>false</isRequired>
+    <constraint/>
+    <description>true/false</description>
+    <additionalMetadata/>
+  </parameter><parameter>
+    <key/>
+    <name>Partner Function</name>
+    <type>xsd:string</type>
+    <isRequired>false</isRequired>
+    <constraint/>
+    <description/>
+    <additionalMetadata/>
+  </parameter><parameter>
+    <key/>
+    <name>PD Custom Error Handling Address</name>
+    <type>xsd:string</type>
+    <isRequired>false</isRequired>
+    <constraint/>
+    <description/>
+    <additionalMetadata/>
+  </parameter><parameter>
+    <key/>
+    <name>MPL Log Custom Status</name>
+    <type>xsd:string</type>
+    <isRequired>false</isRequired>
+    <constraint/>
+    <description/>
+    <additionalMetadata/>
+  </parameter><parameter>
+    <key/>
+    <name>Custom End Event</name>
+    <type>xsd:string</type>
+    <isRequired>false</isRequired>
+    <constraint/>
+    <description>completed/escalated</description>
+    <additionalMetadata/>
+  </parameter><parameter>
+    <key/>
+    <name>Overall SDDocument Rejection Sts Expected</name>
+    <type>xsd:string</type>
+    <isRequired>false</isRequired>
+    <constraint/>
+    <description/>
+    <additionalMetadata/>
+  </parameter><parameter>
+    <key/>
+    <name>Verify Order Type</name>
+    <type>xsd:string</type>
+    <isRequired>false</isRequired>
+    <constraint/>
+    <description/>
+    <additionalMetadata/>
+  </parameter><param_references><reference attribute_category="Amazon_Create" attribute_id="ctype::Adapter/cname::ProcessDirect/vendor::SAP/version::1.1.2/attrId::address" attribute_uilabel="Address" param_key="PD Create Address"/><reference attribute_category="Custom_Error_Handling" attribute_id="ctype::Adapter/cname::ProcessDirect/vendor::SAP/version::1.1.2/attrId::address" attribute_uilabel="Address" param_key="PD Custom Error Handling Address"/><reference attribute_category="S4HANA" attribute_id="ctype::AdapterVariant/cname::SOAP/tp::HTTP/mp::SOAP 1.x/direction::Receiver/version::1.9.0/attrId::useWSAddressing" attribute_uilabel="" param_key="SOAP WS Addressing"/><reference attribute_category="S4HANA.Receiver.System" attribute_id="ctype::AdapterVariant/cname::SOAP/tp::HTTP/mp::SOAP 1.x/direction::Receiver/version::1.9.0/attrId::address" attribute_uilabel="Address" param_key="SOAP Address"/><reference attribute_category="S4HANA" attribute_id="ctype::AdapterVariant/cname::SOAP/tp::HTTP/mp::SOAP 1.x/direction::Receiver/version::1.9.0/attrId::maximumBodySize" attribute_uilabel="" param_key="SOAP Body Size"/><reference attribute_category="S4HANA" attribute_id="ctype::AdapterVariant/cname::SOAP/tp::HTTP/mp::SOAP 1.x/direction::Receiver/version::1.9.0/attrId::soapWsdlURL" attribute_uilabel="URL to WSDL" param_key="SOAP URL to WSDL"/><reference attribute_category="S4HANA" attribute_id="ctype::AdapterVariant/cname::SOAP/tp::HTTP/mp::SOAP 1.x/direction::Receiver/version::1.9.0/attrId::soapOptions" attribute_uilabel="" param_key="SOAP Processing Settings"/><reference attribute_category="S4HANA" attribute_id="ctype::AdapterVariant/cname::SOAP/tp::HTTP/mp::SOAP 1.x/direction::Receiver/version::1.9.0/attrId::soapWsdlPortName" attribute_uilabel="Endpoint" param_key="SOAP Endpoint"/><reference attribute_category="S4HANA" attribute_id="ctype::AdapterVariant/cname::SOAP/tp::HTTP/mp::SOAP 1.x/direction::Receiver/version::1.9.0/attrId::serviceDefinition" attribute_uilabel="" param_key="SOAP Service Defination"/><reference attribute_category="S4HANA" attribute_id="ctype::AdapterVariant/cname::SOAP/tp::HTTP/mp::SOAP 1.x/direction::Receiver/version::1.9.0/attrId::maximumAttachmentSize" attribute_uilabel="" param_key="SOAP Attachment Size"/><reference attribute_category="S4HANA" attribute_id="ctype::AdapterVariant/cname::SOAP/tp::HTTP/mp::SOAP 1.x/direction::Receiver/version::1.9.0/attrId::soapServiceName" attribute_uilabel="Service" param_key="SOAP Service"/><reference attribute_category="S4HANA" attribute_id="ctype::AdapterVariant/cname::SOAP/tp::HTTP/mp::SOAP 1.x/direction::Receiver/version::1.9.0/attrId::userRole" attribute_uilabel="" param_key="SOAP User Role"/><reference attribute_category="S4HANA" attribute_id="ctype::AdapterVariant/cname::SOAP/tp::HTTP/mp::SOAP 1.x/direction::Receiver/version::1.9.0/attrId::senderAuthType" attribute_uilabel="" param_key="SOAP Authorization"/><reference attribute_category="S4HANA" attribute_id="ctype::AdapterVariant/cname::SOAP/tp::HTTP/mp::SOAP 1.x/direction::Receiver/version::1.9.0/attrId::WSSecurity" attribute_uilabel="" param_key="SOAP WS Security COnfiguration"/></param_references></parameters>

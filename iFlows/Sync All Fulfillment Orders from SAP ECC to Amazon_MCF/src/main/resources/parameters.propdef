@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><parameters><parameter>
+    <key/>
+    <name>Customer Query option</name>
+    <type>xsd:string</type>
+    <isRequired>false</isRequired>
+    <constraint/>
+    <description/>
+    <additionalMetadata/>
+  </parameter><parameter>
+    <key/>
+    <name>Location ID</name>
+    <type>xsd:string</type>
+    <isRequired>false</isRequired>
+    <constraint/>
+    <description/>
+    <additionalMetadata/>
+  </parameter><parameter>
+    <key/>
+    <name>Proxy Type</name>
+    <type>xsd:string</type>
+    <isRequired>false</isRequired>
+    <constraint/>
+    <description/>
+    <additionalMetadata>
+      <isCombobox>true</isCombobox>
+    </additionalMetadata>
+  </parameter><parameter>
+    <key/>
+    <name>Authentication</name>
+    <type>xsd:string</type>
+    <isRequired>false</isRequired>
+    <constraint/>
+    <description/>
+    <additionalMetadata>
+      <isCombobox>true</isCombobox>
+    </additionalMetadata>
+  </parameter><parameter>
+    <key/>
+    <name>Credential Name</name>
+    <type>xsd:string</type>
+    <isRequired>false</isRequired>
+    <constraint/>
+    <description/>
+    <additionalMetadata/>
+  </parameter><parameter>
+    <key/>
+    <name>CSRF Protected</name>
+    <type>xsd:boolean</type>
+    <isRequired>false</isRequired>
+    <constraint/>
+    <description/>
+    <additionalMetadata>
+      <isCombobox>false</isCombobox>
+    </additionalMetadata>
+  </parameter><parameter>
+    <key/>
+    <name>Reuse Connection</name>
+    <type>xsd:boolean</type>
+    <isRequired>false</isRequired>
+    <constraint/>
+    <description/>
+    <additionalMetadata>
+      <isCombobox>false</isCombobox>
+    </additionalMetadata>
+  </parameter><parameter>
+    <key/>
+    <name>ProcessDirect Address</name>
+    <type>xsd:string</type>
+    <isRequired>false</isRequired>
+    <constraint/>
+    <description>Endpoint of create order ProcessDirect</description>
+    <additionalMetadata/>
+  </parameter><parameter>
+    <key/>
+    <name>TimeoutOdata</name>
+    <type>xsd:integer</type>
+    <isRequired>false</isRequired>
+    <constraint/>
+    <description/>
+    <additionalMetadata/>
+  </parameter><parameter>
+    <key/>
+    <name>Request Headers</name>
+    <type>xsd:string</type>
+    <isRequired>false</isRequired>
+    <constraint/>
+    <description/>
+    <additionalMetadata/>
+  </parameter><parameter>
+    <key/>
+    <name>Response Headers</name>
+    <type>xsd:string</type>
+    <isRequired>false</isRequired>
+    <constraint/>
+    <description/>
+    <additionalMetadata/>
+  </parameter><parameter>
+    <key/>
+    <name>Enable Batch Processing</name>
+    <type>xsd:boolean</type>
+    <isRequired>false</isRequired>
+    <constraint/>
+    <description/>
+    <additionalMetadata>
+      <isCombobox>false</isCombobox>
+    </additionalMetadata>
+  </parameter><parameter>
+    <key/>
+    <name>Content Type</name>
+    <type>xsd:string</type>
+    <isRequired>false</isRequired>
+    <constraint/>
+    <description/>
+    <additionalMetadata>
+      <isCombobox>true</isCombobox>
+    </additionalMetadata>
+  </parameter><parameter>
+    <key/>
+    <name>Page Size</name>
+    <type>xsd:integer</type>
+    <isRequired>false</isRequired>
+    <constraint/>
+    <description/>
+    <additionalMetadata/>
+  </parameter><parameter>
+    <key/>
+    <name>Attach Error Details on Failure</name>
+    <type>xsd:boolean</type>
+    <isRequired>false</isRequired>
+    <constraint/>
+    <description/>
+    <additionalMetadata>
+      <isCombobox>false</isCombobox>
+    </additionalMetadata>
+  </parameter><parameter>
+    <key/>
+    <name>MD-Request Headers</name>
+    <type>xsd:string</type>
+    <isRequired>false</isRequired>
+    <constraint/>
+    <description/>
+    <additionalMetadata/>
+  </parameter><parameter>
+    <key/>
+    <name>Custom Query Parameters</name>
+    <type>xsd:string</type>
+    <isRequired>false</isRequired>
+    <constraint/>
+    <description/>
+    <additionalMetadata/>
+  </parameter><parameter>
+    <key/>
+    <name>ProcessDirect- CustomErrorHandling Address</name>
+    <type>xsd:string</type>
+    <isRequired>false</isRequired>
+    <constraint/>
+    <description/>
+    <additionalMetadata/>
+  </parameter><parameter>
+    <key/>
+    <name>Scheduler</name>
+    <type>custom:schedule</type>
+    <isRequired>false</isRequired>
+    <constraint/>
+    <description/>
+    <additionalMetadata/>
+  </parameter><parameter>
+    <key/>
+    <name>Streaming</name>
+    <type>xsd:boolean</type>
+    <isRequired>false</isRequired>
+    <constraint/>
+    <description/>
+    <additionalMetadata>
+      <isCombobox>false</isCombobox>
+    </additionalMetadata>
+  </parameter><parameter>
+    <key/>
+    <name>Parallel Processing</name>
+    <type>xsd:boolean</type>
+    <isRequired>false</isRequired>
+    <constraint/>
+    <description/>
+    <additionalMetadata>
+      <isCombobox>false</isCombobox>
+    </additionalMetadata>
+  </parameter><parameter>
+    <key/>
+    <name>Stop on Exception</name>
+    <type>xsd:boolean</type>
+    <isRequired>false</isRequired>
+    <constraint/>
+    <description/>
+    <additionalMetadata>
+      <isCombobox>false</isCombobox>
+    </additionalMetadata>
+  </parameter><parameter>
+    <key/>
+    <name>Partner Function</name>
+    <type>xsd:string</type>
+    <isRequired>false</isRequired>
+    <constraint/>
+    <description/>
+    <additionalMetadata/>
+  </parameter><parameter>
+    <key/>
+    <name>Custom Error Enabled</name>
+    <type>xsd:string</type>
+    <isRequired>false</isRequired>
+    <constraint/>
+    <description>TRUE/FALSE</description>
+    <additionalMetadata/>
+  </parameter><parameter>
+    <key/>
+    <name>Last Change Date Time</name>
+    <type>xsd:string</type>
+    <isRequired>false</isRequired>
+    <constraint/>
+    <description/>
+    <additionalMetadata/>
+  </parameter><parameter>
+    <key/>
+    <name>Incoming Message Title</name>
+    <type>xsd:string</type>
+    <isRequired>false</isRequired>
+    <constraint/>
+    <description/>
+    <additionalMetadata/>
+  </parameter><parameter>
+    <key/>
+    <name>Long Text ID</name>
+    <type>xsd:string</type>
+    <isRequired>false</isRequired>
+    <constraint/>
+    <description/>
+    <additionalMetadata/>
+  </parameter><parameter>
+    <key/>
+    <name>Enable Logging</name>
+    <type>xsd:string</type>
+    <isRequired>false</isRequired>
+    <constraint/>
+    <description>TRUE/FALSE</description>
+    <additionalMetadata/>
+  </parameter><parameter>
+    <key/>
+    <name>Amazon Plant</name>
+    <type>xsd:string</type>
+    <isRequired>false</isRequired>
+    <constraint/>
+    <description/>
+    <additionalMetadata/>
+  </parameter><parameter>
+    <key/>
+    <name>Sales Order Type</name>
+    <type>xsd:string</type>
+    <isRequired>false</isRequired>
+    <constraint/>
+    <description/>
+    <additionalMetadata/>
+  </parameter><parameter>
+    <key/>
+    <name>SAP APP ID - No Message</name>
+    <type>xsd:string</type>
+    <isRequired>false</isRequired>
+    <constraint/>
+    <description/>
+    <additionalMetadata/>
+  </parameter><parameter>
+    <key/>
+    <name>Before Mapping Title</name>
+    <type>xsd:string</type>
+    <isRequired>false</isRequired>
+    <constraint/>
+    <description/>
+    <additionalMetadata/>
+  </parameter><parameter>
+    <key/>
+    <name>After mapping Title</name>
+    <type>xsd:string</type>
+    <isRequired>false</isRequired>
+    <constraint/>
+    <description/>
+    <additionalMetadata/>
+  </parameter><parameter>
+    <key/>
+    <name>Custom Error End Event</name>
+    <type>xsd:string</type>
+    <isRequired>false</isRequired>
+    <constraint/>
+    <description>Completed/Escalated</description>
+    <additionalMetadata/>
+  </parameter><parameter>
+    <key/>
+    <name>MPL Log Custom Status</name>
+    <type>xsd:string</type>
+    <isRequired>false</isRequired>
+    <constraint/>
+    <description/>
+    <additionalMetadata/>
+  </parameter><parameter>
+    <key/>
+    <name>S4HANA Address</name>
+    <type>xsd:string</type>
+    <isRequired>false</isRequired>
+    <constraint/>
+    <description/>
+    <additionalMetadata/>
+  </parameter><parameter>
+    <key/>
+    <name>Sales Organization</name>
+    <type>xsd:string</type>
+    <isRequired>false</isRequired>
+    <constraint/>
+    <description>VKORG filter for RFC_READ_TABLE</description>
+    <additionalMetadata/>
+  </parameter><parameter>
+    <key/>
+    <name>Creation Date From</name>
+    <type>xsd:string</type>
+    <isRequired>false</isRequired>
+    <constraint/>
+    <description>ERDAT GE filter in YYYYMMDD format</description>
+    <additionalMetadata/>
+  </parameter><parameter>
+    <key/>
+    <name>Creation Time From</name>
+    <type>xsd:string</type>
+    <isRequired>false</isRequired>
+    <constraint/>
+    <description>ERZET GE filter in HHMMSS format (e.g. 160000). Leave empty to disable.</description>
+    <additionalMetadata/>
+  </parameter><parameter>
+    <key/>
+    <name>Row Count</name>
+    <type>xsd:string</type>
+    <isRequired>false</isRequired>
+    <constraint/>
+    <description>Max orders to fetch from RFC_READ_TABLE</description>
+    <additionalMetadata/>
+  </parameter><parameter>
+    <key/>
+    <name>ECC RFC Destination</name>
+    <type>xsd:string</type>
+    <isRequired>false</isRequired>
+    <constraint/>
+    <description>RFC destination name for ECC system</description>
+    <additionalMetadata/>
+  </parameter><parameter>
+    <key/>
+    <name>Shipping Point</name>
+    <type>xsd:string</type>
+    <isRequired>false</isRequired>
+    <constraint/>
+    <description>Shipping point (VSTEL) filter for BAPI_DELIVERY_GETLIST</description>
+    <additionalMetadata/>
+  </parameter><parameter>
+    <key/>
+    <name>Creation Date To</name>
+    <type>xsd:string</type>
+    <isRequired>false</isRequired>
+    <constraint/>
+    <description>ERDAT high value in YYYYMMDD format</description>
+    <additionalMetadata/>
+  </parameter><param_references><reference attribute_category="CreateAmazonOrderFlow" attribute_id="ctype::Adapter/cname::ProcessDirect/vendor::SAP/version::1.1.2/attrId::address" attribute_uilabel="Address" param_key="ProcessDirect Address"/><reference attribute_category="Custom_Error_Handling" attribute_id="ctype::Adapter/cname::ProcessDirect/vendor::SAP/version::1.1.2/attrId::address" attribute_uilabel="Address" param_key="ProcessDirect- CustomErrorHandling Address"/></param_references></parameters>

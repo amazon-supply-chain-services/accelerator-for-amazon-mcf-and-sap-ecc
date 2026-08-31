@@ -1,0 +1,815 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><parameters><parameter>
+    <key/>
+    <name>S4 Address</name>
+    <type>xsd:string</type>
+    <isRequired>false</isRequired>
+    <constraint/>
+    <description/>
+    <additionalMetadata/>
+  </parameter><parameter>
+    <key/>
+    <name>S4 Proxy Type</name>
+    <type>xsd:string</type>
+    <isRequired>false</isRequired>
+    <constraint/>
+    <description/>
+    <additionalMetadata>
+      <isCombobox>true</isCombobox>
+    </additionalMetadata>
+  </parameter><parameter>
+    <key/>
+    <name>S4 Authentication</name>
+    <type>xsd:string</type>
+    <isRequired>false</isRequired>
+    <constraint/>
+    <description/>
+    <additionalMetadata>
+      <isCombobox>true</isCombobox>
+    </additionalMetadata>
+  </parameter><parameter>
+    <key/>
+    <name>S4 Reuse Connection</name>
+    <type>xsd:boolean</type>
+    <isRequired>false</isRequired>
+    <constraint/>
+    <description/>
+    <additionalMetadata>
+      <isCombobox>false</isCombobox>
+    </additionalMetadata>
+  </parameter><parameter>
+    <key/>
+    <name>S4 LocationID</name>
+    <type>xsd:string</type>
+    <isRequired>false</isRequired>
+    <constraint/>
+    <description/>
+    <additionalMetadata/>
+  </parameter><parameter>
+    <key/>
+    <name>S4 CredentialName</name>
+    <type>xsd:string</type>
+    <isRequired>false</isRequired>
+    <constraint/>
+    <description/>
+    <additionalMetadata/>
+  </parameter><parameter>
+    <key/>
+    <name>S4 Enable Batch Processing</name>
+    <type>xsd:boolean</type>
+    <isRequired>false</isRequired>
+    <constraint/>
+    <description/>
+    <additionalMetadata>
+      <isCombobox>false</isCombobox>
+    </additionalMetadata>
+  </parameter><parameter>
+    <key/>
+    <name>S4 Custom Query Options</name>
+    <type>xsd:string</type>
+    <isRequired>false</isRequired>
+    <constraint/>
+    <description/>
+    <additionalMetadata/>
+  </parameter><parameter>
+    <key/>
+    <name>S4 Content Type</name>
+    <type>xsd:string</type>
+    <isRequired>false</isRequired>
+    <constraint/>
+    <description/>
+    <additionalMetadata>
+      <isCombobox>true</isCombobox>
+    </additionalMetadata>
+  </parameter><parameter>
+    <key/>
+    <name>S4 Content Type Encoding</name>
+    <type>xsd:string</type>
+    <isRequired>false</isRequired>
+    <constraint/>
+    <description/>
+    <additionalMetadata>
+      <isCombobox>true</isCombobox>
+    </additionalMetadata>
+  </parameter><parameter>
+    <key/>
+    <name>S4 Attach Error Details on Failure</name>
+    <type>xsd:boolean</type>
+    <isRequired>false</isRequired>
+    <constraint/>
+    <description/>
+    <additionalMetadata>
+      <isCombobox>false</isCombobox>
+    </additionalMetadata>
+  </parameter><parameter>
+    <key/>
+    <name>S4 Timeout in min</name>
+    <type>xsd:integer</type>
+    <isRequired>false</isRequired>
+    <constraint/>
+    <description/>
+    <additionalMetadata/>
+  </parameter><parameter>
+    <key/>
+    <name>S4 Request Headers</name>
+    <type>xsd:string</type>
+    <isRequired>false</isRequired>
+    <constraint/>
+    <description/>
+    <additionalMetadata/>
+  </parameter><parameter>
+    <key/>
+    <name>S4 Response Headers</name>
+    <type>xsd:string</type>
+    <isRequired>false</isRequired>
+    <constraint/>
+    <description/>
+    <additionalMetadata/>
+  </parameter><parameter>
+    <key/>
+    <name>S4 MetaData Request Heeaders</name>
+    <type>xsd:string</type>
+    <isRequired>false</isRequired>
+    <constraint/>
+    <description/>
+    <additionalMetadata/>
+  </parameter><parameter>
+    <key/>
+    <name>S4 Custom Query Parameters</name>
+    <type>xsd:string</type>
+    <isRequired>false</isRequired>
+    <constraint/>
+    <description/>
+    <additionalMetadata/>
+  </parameter><parameter>
+    <key/>
+    <name>Language</name>
+    <type>xsd:string</type>
+    <isRequired>false</isRequired>
+    <constraint/>
+    <description>used to update S4HANA SO Text field after response from Amazon</description>
+    <additionalMetadata/>
+  </parameter><parameter>
+    <key/>
+    <name>Amazon BwP Address</name>
+    <type>xsd:string</type>
+    <isRequired>false</isRequired>
+    <constraint/>
+    <description/>
+    <additionalMetadata/>
+  </parameter><parameter>
+    <key/>
+    <name>Amazon BwP Query</name>
+    <type>xsd:string</type>
+    <isRequired>false</isRequired>
+    <constraint/>
+    <description/>
+    <additionalMetadata/>
+  </parameter><parameter>
+    <key/>
+    <name>Amazon BwP Credential Name</name>
+    <type>xsd:string</type>
+    <isRequired>false</isRequired>
+    <constraint/>
+    <description/>
+    <additionalMetadata/>
+  </parameter><parameter>
+    <key/>
+    <name>Amazon BwP Method</name>
+    <type>xsd:string</type>
+    <isRequired>false</isRequired>
+    <constraint/>
+    <description/>
+    <additionalMetadata>
+      <isCombobox>true</isCombobox>
+    </additionalMetadata>
+  </parameter><parameter>
+    <key/>
+    <name>Amazon BwP Auth</name>
+    <type>xsd:string</type>
+    <isRequired>false</isRequired>
+    <constraint/>
+    <description/>
+    <additionalMetadata>
+      <isCombobox>true</isCombobox>
+    </additionalMetadata>
+  </parameter><parameter>
+    <key/>
+    <name>Amazon BwP Timeout in ms</name>
+    <type>xsd:integer</type>
+    <isRequired>false</isRequired>
+    <constraint/>
+    <description/>
+    <additionalMetadata/>
+  </parameter><parameter>
+    <key/>
+    <name>Amazon BwP Request Headers</name>
+    <type>xsd:string</type>
+    <isRequired>false</isRequired>
+    <constraint/>
+    <description/>
+    <additionalMetadata/>
+  </parameter><parameter>
+    <key/>
+    <name>Amazon BwP Proxy Type</name>
+    <type>xsd:string</type>
+    <isRequired>false</isRequired>
+    <constraint/>
+    <description/>
+    <additionalMetadata>
+      <isCombobox>true</isCombobox>
+    </additionalMetadata>
+  </parameter><parameter>
+    <key/>
+    <name>Amazon BwP Response Headers</name>
+    <type>xsd:string</type>
+    <isRequired>false</isRequired>
+    <constraint/>
+    <description/>
+    <additionalMetadata/>
+  </parameter><parameter>
+    <key/>
+    <name>Amazon BwP Attach Error Details on Failure</name>
+    <type>xsd:boolean</type>
+    <isRequired>false</isRequired>
+    <constraint/>
+    <description/>
+    <additionalMetadata>
+      <isCombobox>false</isCombobox>
+    </additionalMetadata>
+  </parameter><parameter>
+    <key/>
+    <name>Amazon BwP Throw Exception On Failure</name>
+    <type>xsd:boolean</type>
+    <isRequired>false</isRequired>
+    <constraint/>
+    <description/>
+    <additionalMetadata>
+      <isCombobox>false</isCombobox>
+    </additionalMetadata>
+  </parameter><parameter>
+    <key/>
+    <name>Amazon BwP Retry Failed Requests</name>
+    <type>xsd:boolean</type>
+    <isRequired>false</isRequired>
+    <constraint/>
+    <description/>
+    <additionalMetadata>
+      <isCombobox>false</isCombobox>
+    </additionalMetadata>
+  </parameter><parameter>
+    <key/>
+    <name>Amazon BwP HTTP Error Response Codes</name>
+    <type>xsd:string</type>
+    <isRequired>false</isRequired>
+    <constraint/>
+    <description/>
+    <additionalMetadata/>
+  </parameter><parameter>
+    <key/>
+    <name>Amazon BwP Retry Interval (in seconds)</name>
+    <type>xsd:string</type>
+    <isRequired>false</isRequired>
+    <constraint/>
+    <description/>
+    <additionalMetadata>
+      <isCombobox>true</isCombobox>
+    </additionalMetadata>
+  </parameter><parameter>
+    <key/>
+    <name>Amazon BwP Retry Iterations</name>
+    <type>xsd:string</type>
+    <isRequired>false</isRequired>
+    <constraint/>
+    <description/>
+    <additionalMetadata>
+      <isCombobox>true</isCombobox>
+    </additionalMetadata>
+  </parameter><parameter>
+    <key/>
+    <name>Amazon BwP Streaming</name>
+    <type>xsd:boolean</type>
+    <isRequired>false</isRequired>
+    <constraint/>
+    <description/>
+    <additionalMetadata>
+      <isCombobox>false</isCombobox>
+    </additionalMetadata>
+  </parameter><parameter>
+    <key/>
+    <name>Pre-Exit Extension Address</name>
+    <type>xsd:string</type>
+    <isRequired>false</isRequired>
+    <constraint/>
+    <description/>
+    <additionalMetadata/>
+  </parameter><parameter>
+    <key/>
+    <name>ProcessDirectEndpoint</name>
+    <type>xsd:string</type>
+    <isRequired>false</isRequired>
+    <constraint/>
+    <description/>
+    <additionalMetadata/>
+  </parameter><parameter>
+    <key/>
+    <name>ProcessDirect CustomErrorHandling Address</name>
+    <type>xsd:string</type>
+    <isRequired>false</isRequired>
+    <constraint/>
+    <description/>
+    <additionalMetadata/>
+  </parameter><parameter>
+    <key/>
+    <name>S4 CSRF Protected</name>
+    <type>xsd:boolean</type>
+    <isRequired>false</isRequired>
+    <constraint/>
+    <description/>
+    <additionalMetadata>
+      <isCombobox>false</isCombobox>
+    </additionalMetadata>
+  </parameter><parameter>
+    <key/>
+    <name>Post-Exit Extension Address</name>
+    <type>xsd:string</type>
+    <isRequired>false</isRequired>
+    <constraint/>
+    <description/>
+    <additionalMetadata/>
+  </parameter><parameter>
+    <key/>
+    <name>LWA Access Token</name>
+    <type>xsd:string</type>
+    <isRequired>false</isRequired>
+    <constraint/>
+    <description/>
+    <additionalMetadata/>
+  </parameter><parameter>
+    <key/>
+    <name>Incoming Payload Title</name>
+    <type>xsd:string</type>
+    <isRequired>false</isRequired>
+    <constraint/>
+    <description/>
+    <additionalMetadata/>
+  </parameter><parameter>
+    <key/>
+    <name>Custom Error Enabled</name>
+    <type>xsd:string</type>
+    <isRequired>false</isRequired>
+    <constraint/>
+    <description/>
+    <additionalMetadata/>
+  </parameter><parameter>
+    <key/>
+    <name>Condition Type Discount Header</name>
+    <type>xsd:string</type>
+    <isRequired>false</isRequired>
+    <constraint/>
+    <description>S4 condition type to be used from Pricing Element to populate Discount related fields</description>
+    <additionalMetadata/>
+  </parameter><parameter>
+    <key/>
+    <name>Alias Type</name>
+    <type>xsd:string</type>
+    <isRequired>false</isRequired>
+    <constraint/>
+    <description/>
+    <additionalMetadata/>
+  </parameter><parameter>
+    <key/>
+    <name>Electronic Payment Type</name>
+    <type>xsd:string</type>
+    <isRequired>false</isRequired>
+    <constraint/>
+    <description>S4 Electronic payment information to be used in logic to send payment related information</description>
+    <additionalMetadata/>
+  </parameter><parameter>
+    <key/>
+    <name>ePayt Authorization Result</name>
+    <type>xsd:string</type>
+    <isRequired>false</isRequired>
+    <constraint/>
+    <description>S4 Electronic payment information to be used in logic to send payment related information</description>
+    <additionalMetadata/>
+  </parameter><parameter>
+    <key/>
+    <name>Amazon BwP IsPrime Eligible</name>
+    <type>xsd:string</type>
+    <isRequired>false</isRequired>
+    <constraint/>
+    <description>If the related materials are prime related materials</description>
+    <additionalMetadata/>
+  </parameter><parameter>
+    <key/>
+    <name>Amazon BwP Delivery Speed</name>
+    <type>xsd:string</type>
+    <isRequired>false</isRequired>
+    <constraint/>
+    <description>Amazon delivery Speed value to be provided</description>
+    <additionalMetadata/>
+  </parameter><parameter>
+    <key/>
+    <name>Enable Logging</name>
+    <type>xsd:string</type>
+    <isRequired>false</isRequired>
+    <constraint/>
+    <description/>
+    <additionalMetadata/>
+  </parameter><parameter>
+    <key/>
+    <name>Post Exit Extension Enabled</name>
+    <type>xsd:string</type>
+    <isRequired>false</isRequired>
+    <constraint/>
+    <description/>
+    <additionalMetadata/>
+  </parameter><parameter>
+    <key/>
+    <name>Pre Exit Extension Enabled</name>
+    <type>xsd:string</type>
+    <isRequired>false</isRequired>
+    <constraint/>
+    <description/>
+    <additionalMetadata/>
+  </parameter><parameter>
+    <key/>
+    <name>Condition Type Tax Header</name>
+    <type>xsd:string</type>
+    <isRequired>false</isRequired>
+    <constraint/>
+    <description>S4 condition type to be used from Pricing Element to populate Tax related fields</description>
+    <additionalMetadata>
+      <Configured>true</Configured>
+    </additionalMetadata>
+  </parameter><parameter>
+    <key/>
+    <name>Condition Type Price Item</name>
+    <type>xsd:string</type>
+    <isRequired>false</isRequired>
+    <constraint/>
+    <description>S4 condition type to be used from Pricing Element to populate Price related fields</description>
+    <additionalMetadata/>
+  </parameter><parameter>
+    <key/>
+    <name>Condition Type Tax Item</name>
+    <type>xsd:string</type>
+    <isRequired>false</isRequired>
+    <constraint/>
+    <description>S4 condition type to be used from Pricing Element to populate Tax related fields</description>
+    <additionalMetadata>
+      <Configured>true</Configured>
+    </additionalMetadata>
+  </parameter><parameter>
+    <key/>
+    <name>Condition Type Discount Item</name>
+    <type>xsd:string</type>
+    <isRequired>false</isRequired>
+    <constraint/>
+    <description>S4 condition type to be used from Item Pricing Element to populate Discount related Item fields</description>
+    <additionalMetadata/>
+  </parameter><parameter>
+    <key/>
+    <name>Amazon BwP Plant Code</name>
+    <type>xsd:string</type>
+    <isRequired>false</isRequired>
+    <constraint/>
+    <description/>
+    <additionalMetadata/>
+  </parameter><parameter>
+    <key/>
+    <name>After Mapping Message Title</name>
+    <type>xsd:string</type>
+    <isRequired>false</isRequired>
+    <constraint/>
+    <description/>
+    <additionalMetadata/>
+  </parameter><parameter>
+    <key/>
+    <name>Amazon Error Response Title</name>
+    <type>xsd:string</type>
+    <isRequired>false</isRequired>
+    <constraint/>
+    <description/>
+    <additionalMetadata/>
+  </parameter><parameter>
+    <key/>
+    <name>Amazon BwP GraphQL API Access Key</name>
+    <type>xsd:string</type>
+    <isRequired>false</isRequired>
+    <constraint/>
+    <description/>
+    <additionalMetadata/>
+  </parameter><parameter>
+    <key/>
+    <name>Amazon BwP GraphQL API Target ID</name>
+    <type>xsd:string</type>
+    <isRequired>false</isRequired>
+    <constraint/>
+    <description/>
+    <additionalMetadata/>
+  </parameter><parameter>
+    <key/>
+    <name>Long Text ID</name>
+    <type>xsd:string</type>
+    <isRequired>false</isRequired>
+    <constraint/>
+    <description/>
+    <additionalMetadata/>
+  </parameter><parameter>
+    <key/>
+    <name>Partner Function</name>
+    <type>xsd:string</type>
+    <isRequired>false</isRequired>
+    <constraint/>
+    <description>ECC partner role for ship-to address (WE = Ship-To)</description>
+    <additionalMetadata/>
+  </parameter><parameter>
+    <key/>
+    <name>Amazon Success Response Title</name>
+    <type>xsd:string</type>
+    <isRequired>false</isRequired>
+    <constraint/>
+    <description/>
+    <additionalMetadata/>
+  </parameter><parameter>
+    <key/>
+    <name>MPL Log Custom Status</name>
+    <type>xsd:string</type>
+    <isRequired>false</isRequired>
+    <constraint/>
+    <description/>
+    <additionalMetadata/>
+  </parameter><parameter>
+    <key/>
+    <name>Custom Error End Event</name>
+    <type>xsd:string</type>
+    <isRequired>false</isRequired>
+    <constraint/>
+    <description/>
+    <additionalMetadata/>
+  </parameter><parameter>
+    <key/>
+    <name>SP_API_CreateOrder_RetryInterval</name>
+    <type>xsd:string</type>
+    <isRequired>false</isRequired>
+    <constraint/>
+    <description/>
+    <additionalMetadata/>
+  </parameter><parameter>
+    <key/>
+    <name>SP_API_Token_AttachError</name>
+    <type>xsd:string</type>
+    <isRequired>false</isRequired>
+    <constraint/>
+    <description/>
+    <additionalMetadata/>
+  </parameter><parameter>
+    <key/>
+    <name>Grant Type</name>
+    <type>xsd:string</type>
+    <isRequired>false</isRequired>
+    <constraint/>
+    <description/>
+    <additionalMetadata/>
+  </parameter><parameter>
+    <key/>
+    <name>SP_API_Token_Timeout</name>
+    <type>xsd:string</type>
+    <isRequired>false</isRequired>
+    <constraint/>
+    <description/>
+    <additionalMetadata/>
+  </parameter><parameter>
+    <key/>
+    <name>SP_API_CreateOrder_AttachError</name>
+    <type>xsd:string</type>
+    <isRequired>false</isRequired>
+    <constraint/>
+    <description/>
+    <additionalMetadata/>
+  </parameter><parameter>
+    <key/>
+    <name>Selling Partner API Security Material</name>
+    <type>xsd:string</type>
+    <isRequired>false</isRequired>
+    <constraint/>
+    <description/>
+    <additionalMetadata/>
+  </parameter><parameter>
+    <key/>
+    <name>Token Type</name>
+    <type>xsd:string</type>
+    <isRequired>false</isRequired>
+    <constraint/>
+    <description/>
+    <additionalMetadata/>
+  </parameter><parameter>
+    <key/>
+    <name>SP_API_CreateOrder_ProxyType</name>
+    <type>xsd:string</type>
+    <isRequired>false</isRequired>
+    <constraint/>
+    <description/>
+    <additionalMetadata/>
+  </parameter><parameter>
+    <key/>
+    <name>SP_API_Token_RetryIteration</name>
+    <type>xsd:string</type>
+    <isRequired>false</isRequired>
+    <constraint/>
+    <description/>
+    <additionalMetadata/>
+  </parameter><parameter>
+    <key/>
+    <name>SP_API_Token_RetryFailedReq</name>
+    <type>xsd:string</type>
+    <isRequired>false</isRequired>
+    <constraint/>
+    <description/>
+    <additionalMetadata/>
+  </parameter><parameter>
+    <key/>
+    <name>SP_API_Token_ProxyType</name>
+    <type>xsd:string</type>
+    <isRequired>false</isRequired>
+    <constraint/>
+    <description/>
+    <additionalMetadata/>
+  </parameter><parameter>
+    <key/>
+    <name>SP_API_Token_ReqHeaders</name>
+    <type>xsd:string</type>
+    <isRequired>false</isRequired>
+    <constraint/>
+    <description/>
+    <additionalMetadata/>
+  </parameter><parameter>
+    <key/>
+    <name>SP_API_CreateOrder_Address</name>
+    <type>xsd:string</type>
+    <isRequired>false</isRequired>
+    <constraint/>
+    <description/>
+    <additionalMetadata/>
+  </parameter><parameter>
+    <key/>
+    <name>SP_API_CreateOrder_Timeout</name>
+    <type>xsd:string</type>
+    <isRequired>false</isRequired>
+    <constraint/>
+    <description/>
+    <additionalMetadata/>
+  </parameter><parameter>
+    <key/>
+    <name>API Auth Header Key</name>
+    <type>xsd:string</type>
+    <isRequired>false</isRequired>
+    <constraint/>
+    <description/>
+    <additionalMetadata/>
+  </parameter><parameter>
+    <key/>
+    <name>Selling Partner API Security Parameter</name>
+    <type>xsd:string</type>
+    <isRequired>false</isRequired>
+    <constraint/>
+    <description/>
+    <additionalMetadata/>
+  </parameter><parameter>
+    <key/>
+    <name>SP_API_CreateOrder_Auth</name>
+    <type>xsd:string</type>
+    <isRequired>false</isRequired>
+    <constraint/>
+    <description/>
+    <additionalMetadata/>
+  </parameter><parameter>
+    <key/>
+    <name>SP_API_CreateOrder_Streaming</name>
+    <type>xsd:string</type>
+    <isRequired>false</isRequired>
+    <constraint/>
+    <description/>
+    <additionalMetadata/>
+  </parameter><parameter>
+    <key/>
+    <name>SP_API_Token_Method</name>
+    <type>xsd:string</type>
+    <isRequired>false</isRequired>
+    <constraint/>
+    <description/>
+    <additionalMetadata/>
+  </parameter><parameter>
+    <key/>
+    <name>SP_API_CreateOrder_Method</name>
+    <type>xsd:string</type>
+    <isRequired>false</isRequired>
+    <constraint/>
+    <description/>
+    <additionalMetadata/>
+  </parameter><parameter>
+    <key/>
+    <name>SP_API_Token_Address</name>
+    <type>xsd:string</type>
+    <isRequired>false</isRequired>
+    <constraint/>
+    <description/>
+    <additionalMetadata/>
+  </parameter><parameter>
+    <key/>
+    <name>SP_API_Token_Exception</name>
+    <type>xsd:string</type>
+    <isRequired>false</isRequired>
+    <constraint/>
+    <description/>
+    <additionalMetadata/>
+  </parameter><parameter>
+    <key/>
+    <name>SP_API_Token_Auth</name>
+    <type>xsd:string</type>
+    <isRequired>false</isRequired>
+    <constraint/>
+    <description/>
+    <additionalMetadata/>
+  </parameter><parameter>
+    <key/>
+    <name>SP_API_Token_ResHeaders</name>
+    <type>xsd:string</type>
+    <isRequired>false</isRequired>
+    <constraint/>
+    <description/>
+    <additionalMetadata/>
+  </parameter><parameter>
+    <key/>
+    <name>SP_API_CreateOrder_ReqHeaders</name>
+    <type>xsd:string</type>
+    <isRequired>false</isRequired>
+    <constraint/>
+    <description/>
+    <additionalMetadata/>
+  </parameter><parameter>
+    <key/>
+    <name>SP_API_CreateOrder_RetryIterations</name>
+    <type>xsd:string</type>
+    <isRequired>false</isRequired>
+    <constraint/>
+    <description/>
+    <additionalMetadata/>
+  </parameter><parameter>
+    <key/>
+    <name>SP_API_CreateOrder_ResHeaders</name>
+    <type>xsd:string</type>
+    <isRequired>false</isRequired>
+    <constraint/>
+    <description/>
+    <additionalMetadata/>
+  </parameter><parameter>
+    <key/>
+    <name>SP_API_Token_RetryResponseCodes</name>
+    <type>xsd:string</type>
+    <isRequired>false</isRequired>
+    <constraint/>
+    <description/>
+    <additionalMetadata/>
+  </parameter><parameter>
+    <key/>
+    <name>SP_API_CreateOrder_RetryFailedReq</name>
+    <type>xsd:string</type>
+    <isRequired>false</isRequired>
+    <constraint/>
+    <description/>
+    <additionalMetadata/>
+  </parameter><parameter>
+    <key/>
+    <name>SP_API_Token_RetryInterval</name>
+    <type>xsd:string</type>
+    <isRequired>false</isRequired>
+    <constraint/>
+    <description/>
+    <additionalMetadata/>
+  </parameter><parameter>
+    <key/>
+    <name>SP_API_Token_Streaming</name>
+    <type>xsd:string</type>
+    <isRequired>false</isRequired>
+    <constraint/>
+    <description/>
+    <additionalMetadata/>
+  </parameter><parameter>
+    <key/>
+    <name>SP_API_CreateOrder_ResponseCodes</name>
+    <type>xsd:string</type>
+    <isRequired>false</isRequired>
+    <constraint/>
+    <description/>
+    <additionalMetadata/>
+  </parameter><parameter>
+    <key/>
+    <name>SP_API_CreateOrder_ThrowException</name>
+    <type>xsd:string</type>
+    <isRequired>false</isRequired>
+    <constraint/>
+    <description/>
+    <additionalMetadata/>
+  </parameter><param_references><reference attribute_category="AmazonBwP" attribute_id="ctype::AdapterVariant/cname::HTTP/tp::HTTP/mp::None/direction::Receiver/version::1.17.3/attrId::throwExceptionOnFailure" attribute_uilabel="Throw Exception On Failure" param_key="SP_API_CreateOrder_ThrowException"/><reference attribute_category="AmazonBwP" attribute_id="ctype::AdapterVariant/cname::HTTP/tp::HTTP/mp::None/direction::Receiver/version::1.17.3/attrId::proxyType" attribute_uilabel="Proxy Type" param_key="SP_API_CreateOrder_ProxyType"/><reference attribute_category="AmazonBwP" attribute_id="ctype::AdapterVariant/cname::HTTP/tp::HTTP/mp::None/direction::Receiver/version::1.17.3/attrId::httpMethod" attribute_uilabel="Method" param_key="SP_API_CreateOrder_Method"/><reference attribute_category="AmazonBwP" attribute_id="ctype::AdapterVariant/cname::HTTP/tp::HTTP/mp::None/direction::Receiver/version::1.17.3/attrId::retryIteration" attribute_uilabel="Retry Iterations" param_key="SP_API_CreateOrder_RetryIterations"/><reference attribute_category="AmazonBwP" attribute_id="ctype::AdapterVariant/cname::HTTP/tp::HTTP/mp::None/direction::Receiver/version::1.17.3/attrId::allowedResponseHeaders" attribute_uilabel="Response Headers" param_key="SP_API_CreateOrder_ResHeaders"/><reference attribute_category="AmazonBwP" attribute_id="ctype::AdapterVariant/cname::HTTP/tp::HTTP/mp::None/direction::Receiver/version::1.17.3/attrId::retryOnConnectionFailure" attribute_uilabel="Retry Failed Requests" param_key="SP_API_CreateOrder_RetryFailedReq"/><reference attribute_category="AmazonBwP" attribute_id="ctype::AdapterVariant/cname::HTTP/tp::HTTP/mp::None/direction::Receiver/version::1.17.3/attrId::streaming" attribute_uilabel="Streaming" param_key="SP_API_CreateOrder_Streaming"/><reference attribute_category="AmazonBwP" attribute_id="ctype::AdapterVariant/cname::HTTP/tp::HTTP/mp::None/direction::Receiver/version::1.17.3/attrId::enableMPLAttachments" attribute_uilabel="Attach Error Details on Failure" param_key="SP_API_CreateOrder_AttachError"/><reference attribute_category="AmazonBwP.Receiver.Auth" attribute_id="ctype::AdapterVariant/cname::HTTP/tp::HTTP/mp::None/direction::Receiver/version::1.17.3/attrId::authenticationMethod" attribute_uilabel="Authentication" param_key="SP_API_CreateOrder_Auth"/><reference attribute_category="AmazonBwP" attribute_id="ctype::AdapterVariant/cname::HTTP/tp::HTTP/mp::None/direction::Receiver/version::1.17.3/attrId::retryInterval" attribute_uilabel="Retry Interval (in seconds)" param_key="SP_API_CreateOrder_RetryInterval"/><reference attribute_category="AmazonBwP" attribute_id="ctype::AdapterVariant/cname::HTTP/tp::HTTP/mp::None/direction::Receiver/version::1.17.3/attrId::httpErrorResponseCodes" attribute_uilabel="HTTP Error Response Codes" param_key="SP_API_CreateOrder_ResponseCodes"/><reference attribute_category="AmazonBwP" attribute_id="ctype::AdapterVariant/cname::HTTP/tp::HTTP/mp::None/direction::Receiver/version::1.17.3/attrId::httpRequestTimeout" attribute_uilabel="Timeout (in ms)" param_key="SP_API_CreateOrder_Timeout"/><reference attribute_category="AmazonBwP" attribute_id="ctype::AdapterVariant/cname::HTTP/tp::HTTP/mp::None/direction::Receiver/version::1.17.3/attrId::allowedRequestHeaders" attribute_uilabel="Request Headers" param_key="SP_API_CreateOrder_ReqHeaders"/><reference attribute_category="AmazonBwP" attribute_id="ctype::AdapterVariant/cname::HTTP/tp::HTTP/mp::None/direction::Receiver/version::1.17.3/attrId::httpAddressWithoutQuery" attribute_uilabel="Address" param_key="SP_API_CreateOrder_Address"/><reference attribute_category="AmazonOAuth" attribute_id="ctype::AdapterVariant/cname::HTTP/tp::HTTP/mp::None/direction::Receiver/version::1.17.3/attrId::throwExceptionOnFailure" attribute_uilabel="Throw Exception On Failure" param_key="SP_API_Token_Exception"/><reference attribute_category="AmazonOAuth" attribute_id="ctype::AdapterVariant/cname::HTTP/tp::HTTP/mp::None/direction::Receiver/version::1.17.3/attrId::proxyType" attribute_uilabel="Proxy Type" param_key="SP_API_Token_ProxyType"/><reference attribute_category="AmazonOAuth" attribute_id="ctype::AdapterVariant/cname::HTTP/tp::HTTP/mp::None/direction::Receiver/version::1.17.3/attrId::httpMethod" attribute_uilabel="Method" param_key="SP_API_Token_Method"/><reference attribute_category="AmazonOAuth" attribute_id="ctype::AdapterVariant/cname::HTTP/tp::HTTP/mp::None/direction::Receiver/version::1.17.3/attrId::retryIteration" attribute_uilabel="Retry Iterations" param_key="SP_API_Token_RetryIteration"/><reference attribute_category="AmazonOAuth" attribute_id="ctype::AdapterVariant/cname::HTTP/tp::HTTP/mp::None/direction::Receiver/version::1.17.3/attrId::allowedResponseHeaders" attribute_uilabel="Response Headers" param_key="SP_API_Token_ResHeaders"/><reference attribute_category="AmazonOAuth" attribute_id="ctype::AdapterVariant/cname::HTTP/tp::HTTP/mp::None/direction::Receiver/version::1.17.3/attrId::retryOnConnectionFailure" attribute_uilabel="Retry Failed Requests" param_key="SP_API_Token_RetryFailedReq"/><reference attribute_category="AmazonOAuth" attribute_id="ctype::AdapterVariant/cname::HTTP/tp::HTTP/mp::None/direction::Receiver/version::1.17.3/attrId::streaming" attribute_uilabel="Streaming" param_key="SP_API_Token_Streaming"/><reference attribute_category="AmazonOAuth" attribute_id="ctype::AdapterVariant/cname::HTTP/tp::HTTP/mp::None/direction::Receiver/version::1.17.3/attrId::enableMPLAttachments" attribute_uilabel="Attach Error Details on Failure" param_key="SP_API_Token_AttachError"/><reference attribute_category="AmazonOAuth.Receiver.Auth" attribute_id="ctype::AdapterVariant/cname::HTTP/tp::HTTP/mp::None/direction::Receiver/version::1.17.3/attrId::authenticationMethod" attribute_uilabel="Authentication" param_key="SP_API_Token_Auth"/><reference attribute_category="AmazonOAuth" attribute_id="ctype::AdapterVariant/cname::HTTP/tp::HTTP/mp::None/direction::Receiver/version::1.17.3/attrId::retryInterval" attribute_uilabel="Retry Interval (in seconds)" param_key="SP_API_Token_RetryInterval"/><reference attribute_category="AmazonOAuth" attribute_id="ctype::AdapterVariant/cname::HTTP/tp::HTTP/mp::None/direction::Receiver/version::1.17.3/attrId::httpErrorResponseCodes" attribute_uilabel="HTTP Error Response Codes" param_key="SP_API_Token_RetryResponseCodes"/><reference attribute_category="AmazonOAuth" attribute_id="ctype::AdapterVariant/cname::HTTP/tp::HTTP/mp::None/direction::Receiver/version::1.17.3/attrId::httpRequestTimeout" attribute_uilabel="Timeout (in ms)" param_key="SP_API_Token_Timeout"/><reference attribute_category="AmazonOAuth" attribute_id="ctype::AdapterVariant/cname::HTTP/tp::HTTP/mp::None/direction::Receiver/version::1.17.3/attrId::allowedRequestHeaders" attribute_uilabel="Request Headers" param_key="SP_API_Token_ReqHeaders"/><reference attribute_category="AmazonOAuth" attribute_id="ctype::AdapterVariant/cname::HTTP/tp::HTTP/mp::None/direction::Receiver/version::1.17.3/attrId::httpAddressWithoutQuery" attribute_uilabel="Address" param_key="SP_API_Token_Address"/><reference attribute_category="SAP_ECC" attribute_id="ctype::Adapter/cname::ProcessDirect/vendor::SAP/version::1.1.2/attrId::address" attribute_uilabel="Address" param_key="ProcessDirectEndpoint"/><reference attribute_category="Custom_Error_Handling" attribute_id="ctype::Adapter/cname::ProcessDirect/vendor::SAP/version::1.1.2/attrId::address" attribute_uilabel="Address" param_key="ProcessDirect CustomErrorHandling Address"/><reference attribute_category="Post-Exit" attribute_id="ctype::Adapter/cname::ProcessDirect/vendor::SAP/version::1.1.2/attrId::address" attribute_uilabel="Address" param_key="Post-Exit Extension Address"/><reference attribute_category="Pre-Exit" attribute_id="ctype::Adapter/cname::ProcessDirect/vendor::SAP/version::1.1.2/attrId::address" attribute_uilabel="Address" param_key="Pre-Exit Extension Address"/></param_references></parameters>

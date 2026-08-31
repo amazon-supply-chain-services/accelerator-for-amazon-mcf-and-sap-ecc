@@ -1,0 +1,64 @@
+plugins {
+    id 'groovy'
+}
+
+/*
+ * Self-contained test harness for the MCF-ECC accelerator.
+ *
+ * These tests run entirely offline:
+ *   - No SAP BTP / CPI runtime, no SAP ECC, no RFC connectivity
+ *   - No Amazon SP-API / MCF connectivity, no network
+ *
+ * The production Groovy transformation scripts live inside the iFlow
+ * folders under ../iFlows/. This build compiles those scripts together
+ * with a local stub of the SAP CPI `Message` class (src/test/groovy/
+ * com/sap/gateway/ip/core/customdev/util/Message.groovy) so the real
+ * transformation logic can be exercised directly.
+ *
+ * Requires only a JDK (17+) and internet access to download Groovy +
+ * JUnit the first time (Gradle handles this). Run with:  ./gradlew test
+ */
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testImplementation 'org.apache.groovy:groovy:4.0.22'
+    testImplementation 'org.apache.groovy:groovy-json:4.0.22'
+    testImplementation 'org.apache.groovy:groovy-xml:4.0.22'
+
+    testImplementation platform('org.junit:junit-bom:5.10.2')
+    testImplementation 'org.junit.jupiter:junit-jupiter'
+    testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
+}
+
+// Root of the repository (one level up from test/)
+def repoRoot = file('..')
+def iflowsRoot = new File(repoRoot, 'iFlows')
+
+/*
+ * Absolute paths to the production Groovy scripts under test.
+ * Kept explicit so a reader can see exactly which production code is exercised.
+ */
+ext.productionScripts = [
+    'createOrder' : new File(iflowsRoot, 'Create Fulfillment Order in Amazon MCF From ECC/src/main/resources/script/generateGraphQLCreateOrderRequest.groovy'),
+    'fulfillment' : new File(iflowsRoot, 'Receive Package Delivery Fulfillment from Amazon MCF To ECC/src/main/resources/script/CustomScripts.groovy'),
+    'cancel'      : new File(iflowsRoot, 'Receive Package Delivery Cancel from Amazon_MCF To ECC/src/main/resources/script/DeliveryCancelFunctions.groovy'),
+    'syncAll'     : new File(iflowsRoot, 'Sync All Fulfillment Orders from SAP ECC to Amazon_MCF/src/main/resources/script/SyncOrdersECC.groovy'),
+]
+
+// Make sample/expected fixture dirs and repo root available to tests as system properties.
+test {
+    useJUnitPlatform()
+    systemProperty 'repo.root', repoRoot.absolutePath
+    systemProperty 'samples.dir', new File(projectDir, 'samples').absolutePath
+    systemProperty 'expected.dir', new File(projectDir, 'expected').absolutePath
+    // Production script paths, passed as system properties so tests load the
+    // real iFlow scripts at runtime (they are not on the compile classpath).
+    productionScripts.each { key, f -> systemProperty "script.${key}", f.absolutePath }
+    testLogging {
+        events 'passed', 'skipped', 'failed'
+        showStandardStreams = true
+    }
+}

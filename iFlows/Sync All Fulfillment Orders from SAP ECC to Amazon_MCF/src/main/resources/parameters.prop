@@ -1,0 +1,44 @@
+#Fri Aug 07 15:52:29 UTC 2026
+After\ mapping\ Title=After Mapping Message
+Amazon\ Plant=1200
+Attach\ Error\ Details\ on\ Failure=true
+Authentication=Basic
+Before\ Mapping\ Title=Before Mapping Message
+CSRF\ Protected=true
+Content\ Type=application/json
+Creation\ Date\ From=20260727
+Creation\ Date\ To=20260828
+Creation\ Time\ From=215000
+Credential\ Name=SAP_S4HANA_Technical_User
+Custom\ Error\ Enabled=FALSE
+Custom\ Error\ End\ Event=Completed
+Custom\ Query\ Parameters=
+Customer\ Query\ option=sap-client\=100
+ECC\ RFC\ Destination=ECC_RFC_ED3
+Enable\ Batch\ Processing=0
+Enable\ Logging=TRUE
+Incoming\ Message\ Title=IncomingPayload
+Last\ Change\ Date\ Time=1997-01-01T10\:00\:00.000
+Location\ ID=A1
+Long\ Text\ ID=0001
+MD-Request\ Headers=
+MPL\ Log\ Custom\ Status=customError_Status
+Page\ Size=
+Parallel\ Processing=false
+Partner\ Function=WE
+ProcessDirect\ Address=/MCF/Fulfillment/CreateOrder
+ProcessDirect-\ CustomErrorHandling\ Address=<CustomErrorHandlingEndpoint>
+Proxy\ Type=sapcc
+Request\ Headers=
+Response\ Headers=
+Reuse\ Connection=true
+Row\ Count=1
+S4HANA\ Address=
+SAP\ APP\ ID\ -\ No\ Message=No Sales Order found
+Sales\ Order\ Type=OR1
+Sales\ Organization=1000
+Scheduler=<row><cell>dateType</cell><cell>ADVANCED</cell></row><row><cell>secondValue</cell><cell>0</cell></row><row><cell>minutesValue</cell><cell></cell></row><row><cell>hourValue</cell><cell></cell></row><row><cell>toInterval</cell><cell>1</cell></row><row><cell>fromInterval</cell><cell>0</cell></row><row><cell>OnEveryMinute</cell><cell>1</cell></row><row><cell>timeType</cell><cell>TIME_INTERVAL</cell></row><row><cell>timeZone</cell><cell>( UTC -8\:00 ) Pacific Standard Time(America/Los_Angeles)</cell></row><row><cell>throwExceptionOnExpiry</cell><cell>true</cell></row><row><cell>second</cell><cell>0-59/59</cell></row><row><cell>minute</cell><cell>53-54/59</cell></row><row><cell>hour</cell><cell>*</cell></row><row><cell>day_of_month</cell><cell>?</cell></row><row><cell>month</cell><cell>*</cell></row><row><cell>dayOfWeek</cell><cell>*</cell></row><row><cell>year</cell><cell>*</cell></row><row><cell>startAt</cell><cell>2026-07-17T16\:27\:28</cell></row><row><cell>endAt</cell><cell>2026-08-10T16\:40\:32</cell></row><row><cell>attributeBehaviour</cell><cell>isScheduleAdvancedStartEndVisible,isScheduleAdvancedVisible,isScheduleSimpleVisible,isThrowExceptionOnExpiryVisible</cell></row><row><cell>triggerType</cell><cell>cron</cell></row><row><cell>noOfSchedules</cell><cell>1</cell></row><row><cell>schedule1</cell><cell>0-59/59+53-54/59+*+?+*+*+*&amp;trigger.timeZone\=America/Los_Angeles&amp;trigger.startAt\=2026-07-17T16\:27\:28&amp;trigger.endAt\=2026-08-10T16\:40\:32</cell></row>
+Shipping\ Point=1201
+Stop\ on\ Exception=false
+Streaming=true
+TimeoutOdata=1

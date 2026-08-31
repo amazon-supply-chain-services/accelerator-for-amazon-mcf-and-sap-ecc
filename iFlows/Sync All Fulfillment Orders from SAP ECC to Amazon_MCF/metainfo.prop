@@ -1,0 +1,5 @@
+#Store metainfo properties
+#Sun Aug 09 05:28:59 UTC 2026
+description=IFlow to replicate all orders from S/4HANA to Amazon for fulfillment
+source=SAPS4HANACloudPrivateEdition
+target=Amazon BwP

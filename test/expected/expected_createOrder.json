@@ -1,0 +1,28 @@
+{
+  "orderId": "0000021994.0080018863",
+  "displayableOrderId": "0000021994",
+  "fulfillmentConfiguration": {
+    "serviceLevel": { "serviceTiers": ["STANDARD"] },
+    "action": "SHIP",
+    "policy": "FILL_ALL_AVAILABLE"
+  },
+  "destination": {
+    "deliveryAddress": {
+      "name": "Jane Recipient",
+      "addressLine1": "1000 Winthrop Ave N",
+      "city": "Seattle",
+      "stateOrRegion": "WA",
+      "postalCode": "98103",
+      "countryCode": "US",
+      "phone": "+1 206 555 0100"
+    }
+  },
+  "origin": { "countryCode": "US" },
+  "lineItems": [
+    {
+      "lineItemId": "000010",
+      "product": { "productIdentifier": { "amazonSku": "TG61" } },
+      "amount": { "unit": "EACHES", "value": "1.000" }
+    }
+  ]
+}

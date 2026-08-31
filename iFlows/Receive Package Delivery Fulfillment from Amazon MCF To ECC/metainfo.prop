@@ -1,0 +1,5 @@
+#Store metainfo properties
+#Thu Aug 13 05:15:20 UTC 2026
+description=IFlow receives package delivery in transit update from Amazon
+source=Amazon
+target=SAPS4HANA

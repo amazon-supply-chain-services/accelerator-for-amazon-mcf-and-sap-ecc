@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions targetNamespace="http://sap.com/xi/SD-SLS"
+                  xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/"
+                  xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+                  xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/"
+                  xmlns:tns="http://sap.com/xi/SD-SLS">
+
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://sap.com/xi/SD-SLS">
+      <xsd:element name="DeliveryReplication">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:any namespace="##any" processContents="skip" minOccurs="0" maxOccurs="unbounded"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+    </xsd:schema>
+  </wsdl:types>
+
+  <wsdl:message name="DeliveryReplicationRequest">
+    <wsdl:part name="parameters" element="tns:DeliveryReplication"/>
+  </wsdl:message>
+
+  <wsdl:portType name="DeliveryReplication_Out">
+    <wsdl:operation name="DeliveryReplication_Out">
+      <wsdl:input message="tns:DeliveryReplicationRequest"/>
+    </wsdl:operation>
+  </wsdl:portType>
+
+  <wsdl:binding type="tns:DeliveryReplication_Out" name="DeliveryReplication_binding">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" style="document"/>
+    <wsdl:operation name="DeliveryReplication_Out">
+      <wsdl:input>
+        <soap:body use="literal"/>
+      </wsdl:input>
+    </wsdl:operation>
+  </wsdl:binding>
+
+  <wsdl:service name="DeliveryReplication_service">
+    <wsdl:port name="DeliveryReplication_port" binding="tns:DeliveryReplication_binding">
+      <soap:address location="https://host:port/"/>
+    </wsdl:port>
+  </wsdl:service>
+
+</wsdl:definitions>

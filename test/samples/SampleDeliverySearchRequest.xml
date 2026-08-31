@@ -1,0 +1,35 @@
+<rfc:BAPI_DELIVERY_GETLIST xmlns:rfc="urn:sap-com:document:sap:rfc:functions">
+  <IS_DLV_DATA_CONTROL>
+    <HEAD_STATUS>X</HEAD_STATUS>
+    <HEAD_PARTNER>X</HEAD_PARTNER>
+    <ITEM>X</ITEM>
+    <ITEM_STATUS>X</ITEM_STATUS>
+    <DOC_FLOW>X</DOC_FLOW>
+  </IS_DLV_DATA_CONTROL>
+
+  <IT_VSTEL>
+    <item>
+      <SIGN>I</SIGN>
+      <OPTION>EQ</OPTION>
+      <SHIP_POINT_LOW>1201</SHIP_POINT_LOW>
+    </item>
+  </IT_VSTEL>
+
+  <IT_ERDAT>
+    <item>
+      <SIGN>I</SIGN>
+      <OPTION>BT</OPTION>
+      <CR_ON_LOW>20260808</CR_ON_LOW>
+      <CR_ON_HIGH>20260813</CR_ON_HIGH>
+    </item>
+  </IT_ERDAT>
+
+  <!-- Filter: Picking NOT started -->
+  <IT_PKSTK>
+    <item>
+      <SIGN>I</SIGN>
+      <OPTION>EQ</OPTION>
+      <PKSTK_LOW>A</PKSTK_LOW>
+    </item>
+  </IT_PKSTK>
+</rfc:BAPI_DELIVERY_GETLIST>

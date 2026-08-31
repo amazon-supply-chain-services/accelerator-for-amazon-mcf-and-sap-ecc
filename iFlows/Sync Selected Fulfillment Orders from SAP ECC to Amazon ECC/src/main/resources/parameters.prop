@@ -1,0 +1,27 @@
+#Fri Aug 07 06:33:13 UTC 2026
+Custom\ End\ Event=completed
+Custum\ Error\ Handling=false
+Enable\ Logging=true
+MPL\ Log\ Custom\ Status=customError_Status
+Overall\ SDDocument\ Rejection\ Sts\ Expected=A
+PD\ Cancel\ Address=/BwP/Fulfillment/CancelOrder
+PD\ Create\ Address=/MCF/Fulfillment/CreateOrder
+PD\ Custom\ Error\ Handling\ Address=/Dummy
+PD\ Update\ Address=/MCF/Fulfillment/UpdateOrder
+Partner\ Function=AG
+Payload\ Logging=true
+Plant=1200
+SOAP\ Address=/RealTimeSync/SalesOrder
+SOAP\ Attachment\ Size=100
+SOAP\ Authorization=RoleBased
+SOAP\ Body\ Size=40
+SOAP\ Endpoint=p1\:DeliveryReplication_port
+SOAP\ Processing\ Settings=cxfRobust
+SOAP\ Service=p1\:DeliveryReplication_service
+SOAP\ Service\ Defination=WSDL
+SOAP\ URL\ to\ WSDL=/wsdl/OP_CO_SDSLS_ESR_SALES_ORDER_REPL.wsdl
+SOAP\ User\ Role=ESBMessaging.send
+SOAP\ WS\ Addressing=0
+SOAP\ WS\ Security\ COnfiguration=None
+TextID=0001
+Verify\ Order\ Type=OR1

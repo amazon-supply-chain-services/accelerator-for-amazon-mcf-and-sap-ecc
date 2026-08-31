@@ -1,0 +1,22 @@
+name: Dependency Review
+on:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  dependency-review:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Dependency Review
+        uses: actions/dependency-review-action@v4
+        with:
+          fail-on-severity: high
+          base-ref: ${{ github.event.repository.default_branch }}
+          head-ref: ${{ github.sha }}
+          allow-licenses: >-
+            Apache-2.0, MIT

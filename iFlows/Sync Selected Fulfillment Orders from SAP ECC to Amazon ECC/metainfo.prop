@@ -1,0 +1,5 @@
+#Store metainfo properties
+#Sun Aug 09 05:29:04 UTC 2026
+description=IFlow to replicate selected orders from SAP ECC to Amazon for fulfillment
+source=SAPS4HANA
+target=Amazon

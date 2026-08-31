@@ -1,0 +1,20 @@
+{
+  "FulfillmentOrderStatusNotification": {
+    "SellerId": "merchantId",
+    "EventType": "Shipment",
+    "StatusUpdatedDateTime": "2026-07-04T00:09:53.109Z",
+    "SellerFulfillmentOrderId": "0000022036.0080018897",
+    "FulfillmentOrderStatus": "PROCESSING",
+    "FulfillmentShipment": {
+      "FulfillmentShipmentStatus": "Shipped",
+      "AmazonShipmentId": "DZRSmwG2N",
+      "FulfillmentShipmentPackages": [
+        {
+          "PackageNumber": 1,
+          "CarrierCode": "FEDEX",
+          "TrackingNumber": "123456789"
+        }
+      ]
+    }
+  }
+}

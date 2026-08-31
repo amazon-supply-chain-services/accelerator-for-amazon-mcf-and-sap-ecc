@@ -1,0 +1,17 @@
+<rfc:BAPI_DELIVERY_GETLIST.Response xmlns:rfc="urn:sap-com:document:sap:rfc:functions">
+    <ET_DELIVERY_HEADER_STS>
+        <item>
+            <VBELN>0080018887</VBELN>
+            <GBSTK>B</GBSTK>
+            <WBSTK>C</WBSTK>
+        </item>
+    </ET_DELIVERY_HEADER_STS>
+    <ET_DELIVERY_ITEM>
+        <item>
+            <VBELN>0080018887</VBELN>
+            <POSNR>000010</POSNR>
+            <MATNR>TG61</MATNR>
+            <LFIMG>1.000</LFIMG>
+        </item>
+    </ET_DELIVERY_ITEM>
+</rfc:BAPI_DELIVERY_GETLIST.Response>

@@ -1,0 +1,14 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Reusable Groovy Scripts for Amazon accelerators
+Bundle-SymbolicName: Reusable_Groovy_Scripts_for_Amazon_accelerators
+Bundle-Version: 1.0.43
+SAP-BundleType: ScriptCollection
+SAP-NodeType: IFLMAP
+Import-Package: org.osgi.framework
+Provide-Capability: scriptcollection.Reusable_Groovy_Scripts_for_Amazon_
+ accelerators;version:Version="1.0.43"
+Origin-Bundle-Name: Reusable Groovy Scripts for Amazon accelerators
+Origin-Bundle-SymbolicName: Reusable_Groovy_Scripts_for_Amazon_accelerat
+ ors
+

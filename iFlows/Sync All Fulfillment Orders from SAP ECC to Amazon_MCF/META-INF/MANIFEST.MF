@@ -1,0 +1,41 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Sync All Fulfillment Orders from SAP ECC to Amazon_MCF
+Bundle-SymbolicName: Sync_All_Fulfillment_Orders_from_SAP_ECC_to_Amazon_
+ MCF
+Bundle-Version: 1.0.0
+SAP-BundleType: IntegrationFlow
+SAP-NodeType: IFLMAP
+SAP-RuntimeProfile: iflmap
+Import-Package: com.sap.esb.application.services.cxf.interceptor,com.sap
+ .esb.security,com.sap.it.op.agent.api,com.sap.it.op.agent.collector.cam
+ el,com.sap.it.op.agent.collector.cxf,com.sap.it.op.agent.mpl,javax.jms,
+ javax.jws,javax.wsdl,javax.xml.bind.annotation,javax.xml.namespace,java
+ x.xml.ws,org.apache.camel,org.apache.camel.builder,org.apache.camel.com
+ ponent.cxf,org.apache.camel.model,org.apache.camel.processor,org.apache
+ .camel.processor.aggregate,org.apache.camel.spring.spi,org.apache.commo
+ ns.logging,org.apache.cxf.binding,org.apache.cxf.binding.soap,org.apach
+ e.cxf.binding.soap.spring,org.apache.cxf.bus,org.apache.cxf.bus.resourc
+ e,org.apache.cxf.bus.spring,org.apache.cxf.buslifecycle,org.apache.cxf.
+ catalog,org.apache.cxf.configuration.jsse,org.apache.cxf.configuration.
+ spring,org.apache.cxf.endpoint,org.apache.cxf.headers,org.apache.cxf.in
+ terceptor,org.apache.cxf.management.counters,org.apache.cxf.message,org
+ .apache.cxf.phase,org.apache.cxf.resource,org.apache.cxf.service.factor
+ y,org.apache.cxf.service.model,org.apache.cxf.transport,org.apache.cxf.
+ transport.common.gzip,org.apache.cxf.transport.http,org.apache.cxf.tran
+ sport.http.policy,org.apache.cxf.workqueue,org.apache.cxf.ws.rm.persist
+ ence,org.apache.cxf.wsdl11,org.osgi.framework,org.slf4j,org.springframe
+ work.beans.factory.config,com.sap.esb.camel.security.cms,org.apache.cam
+ el.spi,com.sap.esb.webservice.audit.log,com.sap.esb.camel.endpoint.conf
+ igurator.api,com.sap.esb.camel.jdbc.idempotency.reorg,javax.sql,org.apa
+ che.camel.processor.idempotent.jdbc,org.osgi.service.blueprint
+Origin-Bundle-Name: Sync All Fulfillment Orders from SAP ECC to Amazon_M
+ CF
+Origin-Bundle-SymbolicName: Sync_All_Fulfillment_Orders_from_SAP_ECC_to_
+ Amazon_MCF
+Require-Capability: scriptcollection.Reusable_Groovy_Scripts_for_Amazon_
+ accelerators;resolution:=optional;bundleType:String="ScriptCollection";
+ source:String="reference"
+Origin-Bundle-Version: 1.0.0
+Origin-ModifiedDate: 1767879431786
+

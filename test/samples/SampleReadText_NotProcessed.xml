@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<rfc:RFC_READ_TEXT.Response xmlns:rfc="urn:sap-com:document:sap:rfc:functions">
+    <MESSAGES/>
+    <OBJECTLINKS/>
+    <TEXT_LINES>
+        <item>
+            <TDOBJECT>VBBK</TDOBJECT>
+            <TDNAME>0080018887</TDNAME>
+            <TDID>0001</TDID>
+            <TDSPRAS>E</TDSPRAS>
+            <TDFORMAT></TDFORMAT>
+            <TDLINE></TDLINE>
+        </item>
+    </TEXT_LINES>
+</rfc:RFC_READ_TEXT.Response>
