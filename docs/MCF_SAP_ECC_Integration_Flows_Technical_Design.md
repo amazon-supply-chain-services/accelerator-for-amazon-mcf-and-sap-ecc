@@ -6,7 +6,9 @@
 
 ## 1. Solution Overview
 
-This integration connects SAP ECC 6.0 (EHP 7.5) with Amazon Multi-Channel Fulfillment (MCF) via SAP BTP Cloud Integration (CPI). All ECC communication uses RFC adapters to the `ECC_RFC_ED3` destination.
+This integration connects SAP ECC 6.0 (EHP 7.5) with Amazon Multi-Channel Fulfillment (MCF) via SAP BTP Cloud Integration (CPI). All ECC communication uses RFC adapters to the configured RFC destination.
+
+![How the Amazon MCF Accelerator for SAP ECC works: SAP ECC to SAP Integration Suite (CPI) to Amazon Multi-Channel Fulfillment](images/architecture-overview.png)
 
 **Key Design Principle:** The `orderId` sent to Amazon follows the pattern `<SalesOrder>.<DeliveryDoc>` (e.g., `0000022023.0080018885`). This allows downstream flows to extract both the sales order and delivery document numbers from a single identifier.
 
@@ -424,7 +426,7 @@ The content-based router evaluates `${property.eventType}` against these keys. `
 
 | Property | Value |
 |----------|-------|
-| RFC Destination | `ECC_RFC_ED3` |
+| RFC Destination | _(your configured RFC destination)_ |
 | Transaction Commit | Enabled (on adapter) |
 | New Connection | Disabled (reuse) |
 | Protocol | Synchronous RFC |
