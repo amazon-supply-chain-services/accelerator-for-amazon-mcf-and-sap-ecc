@@ -2,6 +2,8 @@
 
 Sample integration flows for connecting SAP ECC to Amazon Multi-Channel Fulfillment (MCF) using SAP Business Technology Platform (BTP) Integration Suite and [Selling Partner API (SP-API)](https://developer-docs.amazon.com/sp-api/).
 
+> 📢 **Read the announcement:** Learn more about this accelerator and how it helps SAP customers use Amazon's fulfillment network in the AWS for SAP blog post, [Expanding Amazon's Supply Chain Capabilities for SAP Customers: Multi-Channel Fulfillment Accelerator](https://aws.amazon.com/blogs/awsforsap/expanding-amazons-supply-chain-capabilities-for-sap-customers-multi-channel-fulfillment-accelerator/).
+
 ## About Amazon Supply Chain Services
 
 [Amazon Supply Chain Services](https://supplychain.amazon.com/) provides end-to-end supply chain solutions — from global shipping and bulk storage to fulfillment and last-mile delivery — enabling merchants to leverage Amazon's logistics network for orders across any sales channel. Key services include:
@@ -76,6 +78,7 @@ The steps below are a high-level overview. For detailed, step-by-step configurat
 
 ## Documentation
 
+- **[AWS Blog: MCF Accelerator for SAP](https://aws.amazon.com/blogs/awsforsap/expanding-amazons-supply-chain-capabilities-for-sap-customers-multi-channel-fulfillment-accelerator/)** — Overview of the accelerator, the business use cases it supports, and how it extends Amazon's supply chain capabilities to SAP customers.
 - **[Setup Guide](docs/Setup_Guide.md)** — Step-by-step configuration and deployment, including per-iFlow parameters, Cloud Connector and RFC destination setup, credential aliases, and event delivery.
 - **[Technical Design](docs/MCF_SAP_ECC_Integration_Flows_Technical_Design.md)** — Flow architecture, RFC/BAPI calls per flow, and sequence diagrams.
 - **[ECC Trigger Configuration Guide](docs/ECC_Trigger_Configuration_Guide.md)** — Optional ECC-side NACE output determination setup to trigger real-time order push.
